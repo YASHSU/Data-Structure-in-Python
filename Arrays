@@ -1,0 +1,15 @@
+# Biscuit Prices in different months of the year
+prices = [100, 99, 105, 110, 125]
+
+# 1. Find out the extra price of biscuit in the month of march in comparison to January?
+print("Price of biscuit in march with comparison to January:", prices[2]-prices[0]) # 5 
+
+# 2. Find out price of biscuits in th last 3 months in the given list?
+print("Last 3 months total of biscuit price:", prices[2]+prices[3]+prices[4]) # 340
+
+# 3. Find out the exact price of 120 in any month?
+print("Did price of biscuit touched 120 in any month?", 120 in prices) # False
+
+# 4. Add next month price in prices list.
+prices.append(130)
+print("Price in the revised month of june:", prices[5])
